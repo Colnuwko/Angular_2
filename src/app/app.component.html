@@ -178,6 +178,13 @@
 </style>
 
 <main class="main">
+  <div>
+    <label>Представьтесь, пожалуйста</label>
+    <input [(ngModel)] = "greeting"/>
+  </div>
+  <div>
+    <button (click)="onSayHi()">Скажи "Привет"</button>
+  </div>
   <div class="content">
     <div class="left-side">
       <svg
